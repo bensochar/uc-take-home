@@ -2,7 +2,7 @@
 FROM ruby:3.2.1
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /myapp
 
 # Install dependencies
 RUN apt-get update && \

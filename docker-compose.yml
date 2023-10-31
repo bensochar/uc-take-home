@@ -12,6 +12,6 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: utilizecore_development_development
+      POSTGRES_DB: utilizecore_development
   redis:
     image: redis:6.0
